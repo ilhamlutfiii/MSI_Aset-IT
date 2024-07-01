@@ -7,7 +7,7 @@
 
 </head>
 
-<body style="background-image: url('../storage/photos/1/bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+<body style="background-image: url('../storage/photos/bg.jpg'); background-repeat: no-repeat; background-size: cover;">
 
   <div class="container">
 
@@ -31,7 +31,7 @@
                 <div class="pt-4 pb-4 pl-5 pr-5 " style="background-color:rgba(0, 0, 0, 0.5);">
                   <div class="text-center">
                     <h2 class="text-white">Selamat Datang!</h2>
-                    <img src="../storage/photos/1/user.png" style="max-width: 100px;">
+                    <img src="../storage/photos/user.png" style="max-width: 100px;">
                   </div>
                   <form class="user" method="POST" action="{{ route('login.submit') }}">
                     @csrf
