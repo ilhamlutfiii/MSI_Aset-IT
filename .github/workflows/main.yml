@@ -14,3 +14,4 @@ jobs:
         server: ftp.msiasetit.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        server-dir: /home/msiaseti/public_html/
